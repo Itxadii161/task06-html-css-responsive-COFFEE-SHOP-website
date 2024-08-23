@@ -118,6 +118,24 @@ h1 em{
     font-size: 1.3vh;
     color: white;
 }
+.img-txt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 40px;
+    margin-top: 30px;
+}
+.img-txt img{
+    width: 400px;
+    margin-right: 40px;
+}
+.img-txt p{
+    font-size: x-large;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: justify;
+}
+
 @media(max-width:1000px){
     #logo img {
         width: 70px;
@@ -158,6 +176,18 @@ h1 em{
     @keyframes move{
         from{right: 0px}
         to {right: 50px}
+    }
+    .img-txt{
+        padding: 40px 10px;
+        margin-top: 30px;
+    }
+    .img-txt img{
+        width: 33%;
+    }
+    .img-txt p{
+        padding: 10px 20px;
+        font-size: 2.6vh;
+        font-weight: 450px;
     }
 }
 @media(max-width:780px){
@@ -204,6 +234,34 @@ h1 em{
     @keyframes move{
         from{right: 0px}
         to {right: 5%}
+    }
+    .cof-container .cof-cup{
+        width: 170px;
+        height: 170px;
+
+    }
+    .cof-cup img{
+        width: 120px;
+        height: 100px;
+    }
+    .cof-cup h2{
+        font-size: medium;
+        margin-top: -20px;
+    }
+    .cof-cup p{
+        font-size: 1.7vh;
+    }
+    .img-txt{
+        padding: 40px 0px;
+        margin-top: 30px;
+    }
+    .img-txt img{
+        width: 30%;
+    }
+    .img-txt p{
+        padding: 0px 20px;
+        font-size: 2vh;
+        font-weight: 400px;
     }
 
 }
@@ -259,4 +317,48 @@ h1 em{
         to{right: 5%}
         
     }
+    .cof-container{
+        display: grid;
+        grid-template-columns: 1;
+        gap: 30px;
+        margin-bottom: 70px;
+        margin-top: 30px;
+
+    }
+    .cof-container .cof-cup{
+        width: 250px;
+        height: 220px;
+    }
+    .cof-cup img{
+        width: 180px;
+        height: 150px;
+
+    }
+    .cof-cup h2{
+        margin-top: -15px;
+    }
+    .cof-cup p{
+        padding: 10px;
+    }
+    .img-txt{
+        display: grid;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 60px;
+
+    }
+    .img-txt img{
+        width: 140px;
+        display: block;
+        margin: 0 auto;
+    }
+    .img-txt p{
+        font-size: 2.6vh;
+        font-weight: 300px;
+        margin-right: 0;
+        text-align: justify;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
 }
