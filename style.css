@@ -171,6 +171,41 @@ h1 em{
         padding: 5px;
         
     }
+    .heading{
+        padding: 150px 20px;
+    }
+    .heading h1{
+        font-size: 25px;    
+    }
+    h1 em{
+        font-size: 40px;
+
+    }
+    .heading img{
+        width: 15px;
+        padding: 5px;
+    }
+    .heading p{
+        font-size: small;
+    }
+    .heading button{
+        padding: 5px;
+    }
+    .offer{
+        margin-top: -70px;
+        margin-left: -70px;    
+    }
+    .offer img{
+        width: 300px;
+    }
+    .home-image img{
+        width: 300px;
+    }
+    @keyframes move{
+        from{right: 0px}
+        to {right: 5%}
+    }
+
 }
 @media(max-width:420px){
     #logo img {
