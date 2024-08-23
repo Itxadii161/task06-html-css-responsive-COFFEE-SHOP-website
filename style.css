@@ -82,7 +82,41 @@ h1 em{
 @keyframes move{
     from {right: 0px;}
     to {right: 100px};
+}
+.cof-container{
+    display: flex;
 
+    justify-content: space-evenly;
+    margin-top: 40px; 
+       
+}
+.cof-container .cof-cup{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.265), rgba(0, 0, 0, 0.265)),url(./images/back4.jpg);
+    background-size: cover;
+  
+    
+}
+.cof-cup img{
+    width: 150px;
+    height: 130px;
+    top: -40px;
+    position: relative;
+    top: -40px;
+    border-radius: 50%;
+}
+.cof-cup h2{
+    margin-top: -15px;
+    color: white;
+}
+.cof-cup p{
+    padding: 5px;
+    font-size: 1.3vh;
+    color: white;
 }
 @media(max-width:1000px){
     #logo img {
@@ -117,6 +151,13 @@ h1 em{
     }
     .home-image img{
         width: 300px;
+    } 
+    .home-image{
+        width: 300px;
+    }
+    @keyframes move{
+        from{right: 0px}
+        to {right: 50px}
     }
 }
 @media(max-width:780px){
