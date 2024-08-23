@@ -47,13 +47,18 @@ nav{
 }
 .home-heading h1{
     font-size: 45px;
+    font-family: cursive  ;
+    font-style: oblique;
 }
 h1 em{
     font-size: 60px;
-    font-style: normal;
+    font-style:italic;
+    font-family: cursive;
+
 }
 .heading p{
     padding: 5px 0;
+    
 }
 .home-heading
  button{
@@ -71,6 +76,7 @@ h1 em{
 }
 .offer img{
     width: 400px;
+    margin-top: 30px;
 }
 .home-image{
     width: 400px;
@@ -270,7 +276,6 @@ h1 em{
         width: 50px;
         height: 50px;
         padding-left: 10px;
-    
     }
     .navbar{
         padding-right: 10px;
@@ -278,11 +283,9 @@ h1 em{
     }
     .navbar a {
         font-size: 1.6vh;
-        padding: 5px
-         5px;
-        
+        padding: 5px 5px;       
     }
-        .heading{
+    .heading{
         padding: 60px 20px;
     }
     .heading h1{
@@ -315,7 +318,6 @@ h1 em{
     @keyframes move {
         from{right: 0px}
         to{right: 5%}
-        
     }
     .cof-container{
         display: grid;
