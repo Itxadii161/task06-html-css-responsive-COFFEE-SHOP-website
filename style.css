@@ -224,4 +224,39 @@ h1 em{
          5px;
         
     }
+        .heading{
+        padding: 60px 20px;
+    }
+    .heading h1{
+        font-size: 3vh;    
+    }
+    h1 em{
+        font-size: 4vh;
+
+    }
+    .heading img{
+        width: 10px;
+        padding: 2px;
+        margin: 8px 0px;
+        margin-bottom: 0%;
+    }
+    .heading p{
+        font-size: 1.3vh;
+    }
+    .heading button{
+        padding: 2px;
+        margin-left: 5px;
+        font-size: 1.3vh;
+    }
+    .offer{
+        margin-top: -40px;
+    }
+    .offer img{
+        width: 140px;
+    }
+    @keyframes move {
+        from{right: 0px}
+        to{right: 5%}
+        
+    }
 }
