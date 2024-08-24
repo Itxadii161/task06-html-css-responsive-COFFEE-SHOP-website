@@ -47,14 +47,10 @@ nav{
 }
 .home-heading h1{
     font-size: 45px;
-    font-family: cursive  ;
-    font-style: oblique;
 }
 h1 em{
     font-size: 60px;
     font-style:italic;
-    font-family: cursive;
-
 }
 .heading p{
     padding: 5px 0;
@@ -244,9 +240,12 @@ footer a img{
 
     }
     /* home */
-    .home-heading[
+    .home-heading{
+        padding: 150px 50px;
+    }
+    .home-heading h1{
         font-size: 35px;
-    ]
+    } 
     h1 em{
         font-size: 50px;
     }
@@ -259,7 +258,7 @@ footer a img{
         margin-left: -70px;
     }
     .offer img{
-        width: 100px;
+        width: 300px;
     }
     .home-image img{
         width: 300px;
@@ -322,21 +321,21 @@ footer a img{
         padding: 5px;
         
     }
-    .heading{
+    .home-heading{
         padding: 150px 20px;
     }
-    .heading h1{
+    .home-heading h1{
         font-size: 25px;    
     }
     h1 em{
         font-size: 40px;
 
     }
-    .heading img{
+    .home-heading img{
         width: 15px;
         padding: 5px;
     }
-    .heading p{
+    .home-heading p{
         font-size: small;
     }
     .heading button{
@@ -449,10 +448,10 @@ footer a img{
         font-size: 1.6vh;
         padding: 5px 5px;       
     }
-    .heading{
+    .home-heading{
         padding: 60px 20px;
     }
-    .heading h1{
+    .home-heading h1{
         font-size: 3vh;    
     }
     h1 em{
@@ -465,10 +464,10 @@ footer a img{
         margin: 8px 0px;
         margin-bottom: 0%;
     }
-    .heading p{
+    .home-heading p{
         font-size: 1.3vh;
     }
-    .heading button{
+    .home-heading button{
         padding: 2px;
         margin-left: 5px;
         font-size: 1.3vh;
